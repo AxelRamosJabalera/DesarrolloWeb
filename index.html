@@ -1,43 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Sitio web sobre carros deportivos">
+    <meta name="author" content="Axel">
+    <meta name="keywords" content="carros, deportivos, Ferrari, Lamborghini, Porsche">
+
+    <title>Sports Cars | Inicio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .destacado {
+            border: 2px solid #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>PRueba 1</h1>
-        <form action="">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="Nombre" id="Nombre">
 
-            <label for="colorFav">Color favorito:</label>
-            <input type="color" name="colorFav" id="colorFav">
+    <header>
+        <h1>🏎️ Sports Cars</h1>
 
-            <label for="fechaNac">Fecha nacimiento:</label>
-            <input type="date" name="fechaNac" id="fechaNac">
-        </form>
+        <p>
+            El mundo de los <strong>carros deportivos</strong>,
+            la <em>velocidad</em> y el diseño.
+        </p>
+    </header>
 
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="ferrari.html">Ferrari</a>
+        <a href="lamborghini.html">Lamborghini</a>
+        <a href="porsche.html">Porsche</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
 
-    <table border="1px">
-        <THEad>
-            <tr>
-            <td colspan="2">UNIVERSIDAD AUTONOMA DE NUEVO LEON</td>
-            </tr>
-        <tr>
-            <th>carrera</th>
-            <th>Año de creacion</th>
-        </tr>
-        </THEad>
-        
-        <tr>
-            <td>LTI</td>
-            <td rowspan="2">1995</td>
-        </tr>
-        <tr>
-            <td>CP</td>
-        </tr>
-    </table>
+    <main>
+
+        <section class="hero">
+
+            <h2>Los mejores carros deportivos</h2>
+
+            <div class="destacado">
+
+                <p>
+                    Bienvenido a <span>Sports Cars</span>, un sitio dedicado
+                    a conocer algunos de los automóviles deportivos más
+                    reconocidos del mundo.
+                </p>
+
+                <p>
+                    La velocidad no lo es todo.<br>
+                    También importan el diseño, la tecnología y la experiencia
+                    de conducción.
+                </p>
+
+                <p>
+                    Nuestro objetivo es conocer diferentes marcas y comparar
+                    sus principales características.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <h3>¿Qué hace especial a un deportivo?</h3>
+
+            <ul>
+                <li>Gran potencia</li>
+                <li>Aceleración rápida</li>
+                <li>Diseño aerodinámico</li>
+                <li>Tecnología avanzada</li>
+                <li>Experiencia de conducción</li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h4>Marcas principales</h4>
+
+            <ol>
+                <li>Ferrari</li>
+                <li>Lamborghini</li>
+                <li>Porsche</li>
+            </ol>
+
+        </section>
+
+        <section>
+
+            <h5>Información adicional</h5>
+
+            <p>
+                Los autos deportivos modernos pueden superar fácilmente
+                los <mark>300 km/h</mark>.
+            </p>
+
+            <p>
+                La fecha de creación de este proyecto es:
+                <time datetime="2026-08-23">23 de agosto de 2026</time>.
+            </p>
+
+            <p>
+                La potencia de un motor puede expresarse en HP<sup>1</sup>.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h6>Ejemplo de estructura</h6>
+
+            <pre>
+Ferrari
+   └── Alto rendimiento
+
+Lamborghini
+   └── Diseño agresivo
+
+Porsche
+   └── Ingeniería alemana
+            </pre>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Sonido de un automóvil</h2>
+
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                Tu navegador no soporta audio.
+            </audio>
+
+        </section>
+
+        <section>
+
+            <h2>Video</h2>
+
+            <video width="500" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+
+        </section>
+
+        <aside>
+
+            <h3>Dato curioso</h3>
+
+            <p>
+                Muchos autos deportivos utilizan fibra de carbono
+                para reducir su peso.
+            </p>
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Sports Cars
+        </p>
+
+    </footer>
 
 </body>
 </html>
